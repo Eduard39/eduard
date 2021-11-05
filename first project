@@ -1,0 +1,12 @@
+def menus(menu=["Шаверма", "гамбургер", "запеканка"]):
+    print(", ".join(menu))
+    time.sleep(1)
+    menu.append("макароны")
+    print(", ".join(menu))
+    time.sleep(1)
+    menu.remove("макароны")
+    print(", ".join(menu))
+
+
+time.sleep(1)
+menus()
